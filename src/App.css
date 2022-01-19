@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+.containerBase {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+}
+.createCvBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 30px;
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    border: solid;
+    background-color: rgb(243, 239, 239);
+    border-color: rgb(63, 63, 63);
+    color: rgb(63, 63, 63);
+ 
+}
+
+.createCvBtn:hover {
+    background-color: rgb(230, 228, 228);
+    border-color: rgb(129, 129, 129);
+    color: rgb(150, 150, 150);
+    cursor: pointer;
+}
+
+.createEdExpBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 30px;
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    border: solid;
+    background-color: rgb(243, 239, 239);
+    border-color: rgb(63, 63, 63);
+    color: rgb(63, 63, 63);
+}
+
+.createEdExpBtn:hover {
+    background-color: rgb(230, 228, 228);
+    border-color: rgb(129, 129, 129);
+    color: rgb(150, 150, 150);
+    cursor: pointer;
+}
+
+
+.createEdExpBtnBonus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 30px;
+    margin-left: 580px;
+    margin-top: 5px;
+    margin-bottom: -40px;
+    height: 40px;
+    width: 40px;
+    border: solid;
+    background-color: rgb(243, 239, 239);
+    border-color: rgb(63, 63, 63);
+    color: rgb(63, 63, 63);
+}
+
+.createEdExpBtnBonus:hover {
+    background-color: rgb(230, 228, 228);
+    border-color: rgb(129, 129, 129);
+    color: rgb(150, 150, 150);
+    cursor: pointer;
+}
+
+.createPractExpBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 30px;
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    border: solid;
+    background-color: rgb(243, 239, 239);
+    border-color: rgb(63, 63, 63);
+    color: rgb(63, 63, 63);
+}
+
+.createPractExpBtn:hover {
+    background-color: rgb(230, 228, 228);
+    border-color: rgb(129, 129, 129);
+    color: rgb(150, 150, 150);
+    cursor: pointer;
+}
+
+.divGen {
+    border: solid 1px;
+    border-color: rgb(63, 63, 63);
+    width: 600px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-top: none;
+    border-bottom: solid 2px;
+    border-left: none;
+    border-right: none;
+}
+.buttonEdit {
+    margin: 10px;
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(78, 78, 78);
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+}
+
+.buttonEdit:hover {
+    background-color: rgb(230, 228, 228);
+    border-color: rgb(129, 129, 129);
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(150, 150, 150);
+    cursor: pointer;
+}
+
+.formNorm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid;
+    font-family: 'Roboto Mono', monospace;
+    width: 500px;
+    margin: auto;
+    border: solid 2px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+    color: rgb(22, 22, 22);
+    height: 30px;
+    font-size: 17px;
+    width: 280px;
+    border: 2px solid;
+    font-family: 'Roboto Mono', monospace;
+ 
+}
+
+input {
+    outline: none;
+}
+
+.titleSection {
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.finishEditBtn {
+    margin: 10px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(78, 78, 78);
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+}
+
+
+.finishEditBtn:hover {
+    background-color: rgb(230, 228, 228);
+    border-color: rgb(129, 129, 129);
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(150, 150, 150);
+    cursor: pointer;
+}
+
+
+/* .containerEditing {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: auto;
+}
+*/
+
+.divGlob {
+    border: solid 2.5px;
+    border-bottom: none;
+    background-color: rgb(226, 226, 226);
+}
+.footer {
+    position:static;  
+    margin-top: 500px;
+    left: 10px;  
+    bottom: 8px;  
+    right: 10px;   
+    width: 100%;  
+    color: rgb(34, 34, 34);  
+    text-align: center;
+    height: 20px;
+    font-size: 13px;
+    font-family: 'Roboto Mono', monospace;
+ 
+}
